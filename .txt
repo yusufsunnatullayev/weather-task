@@ -1,0 +1,33 @@
+src/
+├── app/
+│   ├── App.js           // Asosiy ilova komponenti
+│   ├── main.js          // Illovani ishga tushiruvchi qism
+│   └── providers/
+│       └── ThemeProvider.js // ThemeContext uchun provider
+├── pages/
+│   ├── HomePage.js      // Asosiy sahifa
+│   ├── ForecastPage.js  // Prognoz sahifasi
+│   └── SettingsPage.js  // Sozlamalar sahifasi
+├── features/
+│   ├── city-search/
+│   │   └── ui.js        // Shahar qidiruv komponenti
+│   └── theme-switcher/
+│       └── ui.js        // Light/Dark mode almashtirgich
+├── widgets/
+│   ├── header/
+│   │   └── ui.js        // Header komponenti
+│   ├── weather-card/
+│   │   └── ui.js        // Ob-havo ma'lumotlari kartasi
+│   └── forecast-day-card/
+│       └── ui.js        // Prognoz kartasi
+└── shared/
+    ├── api/
+    │   └── weather.js    // API chaqiruvlari
+    ├── config/
+    │   └── constants.js  // API kaliti va URL'lar
+    ├── hooks/
+    │   └── use-weather.js// useQuery hooklari
+    ├── lib/
+    │   └── utils.js      // Yordamchi funksiyalar
+    └── ui/
+        └── index.js      // Button, Input kabi oddiy UI komponentlari
