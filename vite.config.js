@@ -4,8 +4,8 @@ import tailwindcss from "@tailwindcss/vite";
 import path from "path";
 
 export default defineConfig({
+  base: "/weather-task/",
   plugins: [react(), tailwindcss()],
-  base: "/",
   build: {
     rollupOptions: {
       input: {
